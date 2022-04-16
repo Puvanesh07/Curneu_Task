@@ -1,0 +1,38 @@
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.product-hero{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-heading{
+    text-align: center;
+    color: #57cbcc;
+}
+
+.phones{
+    width: 100%;
+    transition: transform .2s;
+}
+
+.phones:hover{
+    transform: scale(1.3); 
+}
+
+
+@media all and (max-width:700px){
+    .product-container{
+        height: 270vh;
+    }
+    .product-hero{
+        flex-direction: column;
+    }
+}

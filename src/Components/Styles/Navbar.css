@@ -1,0 +1,39 @@
+.navbar-container{
+    height: 11vh;
+    background: linear-gradient(to right, #fff, #7ccdc5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.show{
+    position: fixed;
+    top: 0;
+}
+
+.navbar-hero{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo{
+    height: 45px;
+    width: 140px;
+    object-fit: contain;
+}
+.navbar-rightcon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navbar-rightcon a{
+    text-decoration: none;
+    color:black;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

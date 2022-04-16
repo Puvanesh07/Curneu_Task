@@ -1,0 +1,53 @@
+.acuplan-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.acuplan-hero{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px dotted rgba(0, 0, 0, 0.459);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #4f4f4f;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.acuplan-logo{
+    height: 60px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.acuplanpara{
+    width: 90%;
+    padding: 10px;
+    letter-spacing: 0.3px;
+}
+
+.acuplan-button{
+    padding: 17px;
+    border: none;
+    color: white;
+    background-color: #57cbcc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 28px 0px rgba(87,203,204,0.75);
+    cursor: pointer;
+}
+
+@media all and (max-width:800px)
+{
+    .acuplan-hero{
+        padding: 10px;
+    }
+}

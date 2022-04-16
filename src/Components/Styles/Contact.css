@@ -1,0 +1,59 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    color: #4f4f4fbd;
+    gap: 50px;
+}
+.contact-hero{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-heading{
+    text-align: center;
+}
+
+.contact-left div{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    gap:10px;
+    font-weight: bold;
+}
+
+.contact-right input{
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+
+button{
+    padding: 12px;
+    background: #57cbcc;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

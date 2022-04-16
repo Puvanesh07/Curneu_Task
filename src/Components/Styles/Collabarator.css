@@ -1,0 +1,29 @@
+.collabarator-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 120vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.collabarator-img{
+    background-image: url("../../Assets/final_collab_new1.png");
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.collabarators-heading{
+    color: #57cbcc;
+    margin-top: 30px;
+}
+
+@media all and (max-width:900px){
+    .collabarator-container{
+        height: 80vh;
+    }
+}
